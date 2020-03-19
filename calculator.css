@@ -1,0 +1,90 @@
+body{
+	background-color: black;
+}
+.main{
+	background-image: url(https://38.media.tumblr.com/cab51a1ca7c93ed6637cac37e6adc149/tumblr_neitigAqpR1raiktro1_500.gif);
+	width:1000px;
+	height: 590px;
+	margin:20px auto;
+}
+.calci{
+	background-color: white;
+	width: 390px;
+	height: 500px;
+	margin: 20px auto;
+	position: relative;
+	top:40px;
+	border-radius: 9px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0,0.89);
+}
+#result{
+	font-size: 30px;
+	height: 120px;
+}
+#history{
+	font-size: 32px;
+	text-align: right;
+	height: 30px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	font-size: 34px;
+	text-align: right;
+	height: 50px;
+	margin: 2px 22px;
+	font-size: 36px;
+}
+#keyboard{
+	padding-left: 34px;
+	background-color: #919191;
+	height: 380px;
+}
+.operator, .number, .empty{
+	background-color: chartreuse;
+	width: 50px;
+	height: 46px;
+	margin: 15px;
+	float: left;
+	border-radius: 30%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 21px;
+}
+.number, .empty{
+	background-color:lightblue;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 29px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+button:active{
+	color:green;
+}
